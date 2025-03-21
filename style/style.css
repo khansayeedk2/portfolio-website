@@ -1,0 +1,90 @@
+/*Header Section*/
+.nav-section {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+}
+
+.logo-word {
+    color: #FD6E0A;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-menu li {
+    margin: 0 10px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.button {
+    padding: 10px 30px 10px 30px;
+    background-color: #FD6E0A;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 0 10px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif
+   
+}
+
+.banner-text {
+    margin: 0 0 0px 340px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.head {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+}
+
+.sub-heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0 0 10px 10px;
+}
+
+.heading {
+    font-size: 70px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 15px 10px;
+}
+
+.para {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0 0 20px 10px;
+}
